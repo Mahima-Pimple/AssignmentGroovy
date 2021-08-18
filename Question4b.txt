@@ -1,0 +1,13 @@
+
+Question 4b
+
+b) Define a string variable containing a name. Print a hello statement with your name using string concatenation, 
+then using a Groovy string.
+
+Solution :
+groovy> String name = "Mahima" 
+groovy> println(hello + name)
+
+Output :
+HelloMahima
+

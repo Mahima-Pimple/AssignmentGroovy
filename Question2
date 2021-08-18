@@ -1,0 +1,69 @@
+Question 2 :
+Wrapper Classes
+
+From the associated wrapper classes, find the min and max values for the Java primitives: 
+byte, short, int, long, float, double.
+
+Solution :
+
+class wrapper{
+    static void main(String[] args){
+    byte b = 20
+    println b
+    println Byte.MIN_VALUE
+    println Byte.MAX_VALUE
+    
+    short s = 50
+    println s
+    println Short.MIN_VALUE
+    println Short.MAX_VALUE
+    
+    int i = 40
+    println i
+    println Integer.MIN_VALUE
+    println Integer.MAX_VALUE
+    
+    long l = 35L
+    println l
+    println Long.MIN_VALUE
+    println Long.MAX_VALUE
+    
+    float f = 10.5F
+    println f
+    println Float.MIN_VALUE
+    println Float.MAX_VALUE
+    
+    double d = 10.05
+    println d
+    println Double.MIN_VALUE
+    println Double.MAX_VALUE
+    }
+}
+
+Output :
+20
+-128
+127
+_______________
+50
+-32768
+32767
+_______________
+40
+-2147483648
+2147483647
+_______________
+35
+-9223372036854775808
+9223372036854775807
+_______________
+10.5
+1.4E-45
+3.4028235E38
+_______________
+10.05
+4.9E-324
+1.7976931348623157E308
+_______________
+
+

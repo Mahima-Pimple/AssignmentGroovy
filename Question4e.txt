@@ -1,0 +1,7 @@
+Question 4e
+
+String a = "Hello, World. How are you?"
+println a.substring(7, 12)
+
+Output : 
+world

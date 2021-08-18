@@ -1,0 +1,30 @@
+Question 4 :
+Strings and GroovyStrings
+a) How many characters are in the string "Hello, Groovy!"?
+
+Solution : 
+groovy> def name = "Hello, Groovy!" 
+groovy> println name.length() 
+
+Output : 
+14
+
+b) Define a string variable containing a name. Print a hello statement with your name using string concatenation, 
+then using a Groovy string.
+
+Solution :
+groovy> String name = "Mahima" 
+groovy> println(hello + name)
+
+Output :
+HelloMahima
+
+c) Demonstrate that "racecar" is a palindrome by comparing it to its reverse. 
+Do the same with "Bob", removing case sensitivity first.
+
+Solution :
+
+Output :
+
+
+

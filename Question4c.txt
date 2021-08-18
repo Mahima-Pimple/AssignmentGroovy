@@ -1,0 +1,14 @@
+Question 4c 
+
+String str1 = "racecar"
+println str1.reverse()
+
+String str2 = "Bob"
+str1.toLowerCase()
+str2.toLowerCase()
+
+println str2.reverse()
+
+Output : 
+racecar
+boB

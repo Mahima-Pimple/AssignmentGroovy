@@ -1,0 +1,15 @@
+Question 4d
+
+String a = "Hello, World. How are you?"
+println a.split()
+println a.size()
+b = a.tokenize()
+println b
+println b.size()
+
+Output : 
+[Hello,, World., How, are, you?]
+26
+[Hello,, World., How, are, you?]
+5
+

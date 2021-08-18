@@ -1,0 +1,11 @@
+Question 3 
+
+println "The Maximum value is : " +Byte.MAX_VALUE
+byte n = 127
+println n + 1
+println n.getClass().getName()
+
+Output : 
+The Maximum value is : 127
+128
+java.lang.Byte

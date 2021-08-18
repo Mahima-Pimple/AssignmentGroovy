@@ -1,0 +1,14 @@
+
+
+List fruits = ['Apple','Orange','Mango','Pineapple','Kiwi','Banana']
+println fruits.sort()
+List sort = fruits.sort{it.size()}
+println sort
+println sort.reverse()
+
+
+Output : 
+[Apple, Banana, Kiwi, Mango, Orange, Pineapple]
+[Kiwi, Apple, Mango, Banana, Orange, Pineapple]
+[Pineapple, Orange, Banana, Mango, Apple, Kiwi]
+

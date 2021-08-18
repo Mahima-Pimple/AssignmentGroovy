@@ -1,0 +1,25 @@
+Question 1
+
+a=2
+b=20000000000
+c=200000000000000
+println "Data type of a: " + a.getClass().getName()
+println "Data type of b: " + b.getClass().getName()
+println "Data type of c: " + c.getClass().getName()
+
+// For Float
+p=20000000.0
+q=20000000000000000000.0000000
+r=2000000000000000000000000000000000000000.00000
+println "Data type of p: " + p.getClass().getName()
+println "Data type of q: " + q.getClass().getName()
+println "Data type of r: " + r.getClass().getName()
+
+
+Output : 
+Data type of a: java.lang.Integer
+Data type of b: java.lang.Long
+Data type of c: java.lang.Long
+Data type of p: java.math.BigDecimal
+Data type of q: java.math.BigDecimal
+Data type of r: java.math.BigDecimal

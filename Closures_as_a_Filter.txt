@@ -1,0 +1,9 @@
+
+
+def myList=[3,12,6,9,0,-3,8,-49]
+println myList.findAll {
+	item -> item > 0
+}
+
+Output : 
+[3, 12, 6, 9, 8]

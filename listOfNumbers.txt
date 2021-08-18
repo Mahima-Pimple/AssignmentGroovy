@@ -1,0 +1,24 @@
+def n=[16,4,30,552,13]
+def s=0
+def sum=0
+println n
+for(i=0; i<5; i++) {
+	s = s + n[i]
+}
+println "Add all numbers: "+s
+
+for(i=0; i<5; i++) {
+	sum = sum +(n[i]*n[i])
+}
+println "Double and add: "+sum
+def avg1=s/7
+def avg2=sum/7
+println "Average of numbers: "+avg1
+println "Average of double numbers: "+avg2
+
+Output :
+[16, 4, 30, 552, 13]
+Add all numbers: 615
+Double and add: 306045
+Average of numbers: 87.8571428571
+Average of double numbers: 43720.7142857143

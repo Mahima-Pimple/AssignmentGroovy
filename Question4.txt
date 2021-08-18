@@ -1,0 +1,17 @@
+Question 4a 
+
+Strings and GroovyStrings
+a) How many characters are in the string "Hello, Groovy!"?
+
+Solution : 
+groovy> def name = "Hello, Groovy!" 
+groovy> println name.length() 
+
+Output : 
+14
+
+
+
+
+
+

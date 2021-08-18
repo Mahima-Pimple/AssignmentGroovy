@@ -1,0 +1,14 @@
+def string = """This is my groovy
+ Assignment"""
+size = string.length()
+count=0
+
+for(a=0; a<=size-1; a++)
+{
+	if(string[a]=='A'||string[a]=='E'||string[a]=='I'||string[a]=='O'||string[a]=='U'||string[a]=='a'||string[a]=='e'||string[a]=='i'||string[a]=='o'||string[a]=='u')
+		{
+			count = count+1
+		}
+}
+print "Number of Vowels " +count
+

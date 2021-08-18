@@ -1,0 +1,9 @@
+Question 1b
+
+def x = 1 + 1.5
+println x
+println "Data type is : " + x.getClass().getName()
+
+Output : 
+2.5
+Data type is : java.math.BigDecimal
